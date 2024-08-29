@@ -1,4 +1,54 @@
 body{
     background-color: black;
     color: white;
+    background-image: url("Img/PlanoDeFundoPrincipal.png");
+}
+
+
+.flex-container {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+  
+.flex-container > div {
+    margin: 1px;
+    padding: 20px;
+    font-size: 10px;
+}
+.flex-item {
+    margin: 1px;
+}
+.container{
+    background-color: rgb(91, 5, 23);
+    margin-top: 10rem;
+    margin-left: 31rem;
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+    border: 2px solid #000000;
+    border-radius: 6px;
+}
+.botao{
+    margin-top: 0rem;
+    margin-left: 14rem;
+    width: 150px;
+    padding: 15px 20px;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    background-color: #00105c;
+    font-size: 18px;
+    justify-content: center;
+    color:white;
+}
+.input{
+    margin-top: 0rem;
+    margin-left: 0rem;
+    width: 150px;
+    padding: 10px 15px;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    font-size: 18px;
+    justify-content: center;
+    color:white;
 }

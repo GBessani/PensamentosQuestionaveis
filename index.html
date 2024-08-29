@@ -14,20 +14,30 @@
 
         </header>
         
-        <main>
-            <h1>Vamos jogar um jogo<strong> QUESTIONAVEL</strong></h1>
-            <p> 
-                Escreva uma frase com inico e fim: <br>
-                inicio:<br>
-            </p>
-            <input type="text" id="inicio" alt="Digite o inicio aqui">
-            <p> 
-                Fim:<br>
-            </p>
-            <input type="text" id="final" alt="Digite o fim aqui">
-            <br>
-            <br>
-            <button onclick="Sortear()">Sortear</button>
+        <main> 
+            <div class="container">
+                <span class="flex-container">
+                    <div id="Titulo">
+                        <h1>Vamos jogar um jogo<strong> QUESTIONAVEL</strong></h1>
+                        <h2>Um jogo sbre pensamentos intrusivos questionaveis</h2>
+                    </div>
+                </span>
+                <span class="flex-container">
+                    <div id="iniciar">
+                        <h2>inicio:</h2>
+                        <input type="text" id="inicio" alt="Digite o inicio aqui" class="input">
+                    </div>
+                    
+                    <div id="finalizar">
+                        <h2>fim:</h2>
+                        <input type="text" id="final"   alt="Digite o fim aqui" class="input">
+                    </div>
+                </span>
+                <br>
+                <br>
+                <button onclick="Sortear()" class="botao">Sortear</button>
+            </div>
+
 
             <!--<a href="https://wa.me/5544998601878">WhatsApp</a>
             <a href="https://github.com/GBessani">GitHub</a>
